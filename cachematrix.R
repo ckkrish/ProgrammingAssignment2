@@ -9,9 +9,6 @@ makeCacheMatrix <- function(x = matrix()) {
 	x_inv <- NULL
 	set <- function(y)
 	 {
-#		rows <- nrow(y)
-#		cols <- ncol(y)
-#		x <<- matrix(y, rows, cols)
 		x <<- y
 		x_inv <<- NULL
 	}
